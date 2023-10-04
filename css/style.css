@@ -149,31 +149,11 @@ body{
     border-radius: 10px ;
     font-size: 15px;
 }
-/* aggiungo la freccetta che indica da dove proviene il mio messaggio  */
-.message p::before{
-    content: '';
-    position: absolute;
-    top: 70%;
-    right: -12px;
-    width: 20px;
-    height: 20px;
-    background: linear-gradient(135deg,#dcf8c6 0%,#dcf8c6 50%,transparent 50%, transparent)
-}
 /* modifico il paragrafo del messaggio dell'amico */
 .friend_message p{
     background: #fff;
     text-align: left;
-}
-/* aggiungo la freccetta che indica da dove proviene il suo messaggio  */
-.message.friend_message p::before{
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: -12px;
-    width: 20px;
-    height: 20px;
-    background: linear-gradient(225deg,#fff 0%,#fff 50%,transparent 50%, transparent)
-}
+} 
 /* modifico il mio messaggio e lo metto tutto a destra */
 .my_message{
     justify-content: flex-end;
