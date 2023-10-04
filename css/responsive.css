@@ -20,4 +20,12 @@
     .chat-list{
        height: 700px;
     }
+    /* aumento la larghezza del blocco contenente la foto e il nome nella chat attuale */
+    .foto-nome{
+        width: 60%;
+    }
+    /* aumento la larghezza del contenitore dei simboli */
+    .simboli-chat{
+        width: 35%;
+    }
 }

@@ -77,27 +77,12 @@ body{
     height: 525px;
     background-color: green;
 }
-/* classe per la chat attuale  */
-.chat-now{
-    /* debug */
-    width: 100%;
-    background-color: lightcoral;
-    height: 600px;
-}
-/* classe per la parte dove scrivi un messaggio */
-.scrivi{
-    /* debug */
-    width: 100%;
-    height: 100px;
-    background-color: springgreen;
-}
 /* classe per il container dell'header */
 .container-header{
     /* debug */
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 1.5rem 0;
 }
 /* classe per il contenuto di sinistra dentro l'header di sinistra */
 .div-sinistra-header{
@@ -136,4 +121,35 @@ body{
     height: 90px;
     background-color: blueviolet; 
     border: 1px solid black;
+}
+/* classe per la chat attuale  */
+.chat-now{
+    /* debug */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: lightcoral;
+    height: 600px;
+    overflow-y: scroll;
+}
+/* classe per la parte dove scrivi un messaggio */
+.scrivi{
+    /* debug */
+    width: 100%;
+    height: 100px;
+    background-color: springgreen;
+}
+/* classe del blocco con il nome e la foto  */
+.foto-nome{
+    /* debug */
+    width: 40%;
+    background-color: slateblue;
+}
+/* classe per il blocco dei simboli */
+.simboli-chat{
+    /* debug */
+    width: 30%;
+    background-color: red;
 }
