@@ -8,3 +8,85 @@
 img{
     max-width: 100%;
 }
+/* classe del body per mettere il colore dietro */
+body{
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#009688 0%, #009688 150px, #d9dbd5 150px, #d9dbd5 100%);
+}
+/* classe per il container centrale */
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    /* debug */
+    min-height:800px ;
+    background: #fff;
+}
+/* classe del container di sinistra  */
+.container .sinistra{
+    position: relative;
+    width: 30%;
+    background-color: #fff;
+}
+/* classe del container di destra */
+.container .destra{
+    position: relative;
+    background: #e5ddd5;
+    width: 70%;
+    background-image: url(../img/mine.jpg);
+}
+/* header di sinistra */
+.sinistra header{
+    /* debug */
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+/* header di destra */
+.destra header{
+    /* debug */
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+}
+/* classe per le notifiche */
+.notifiche{
+    /* debug */
+    height: 125px;
+    width: 100%;
+    background-color: aqua;
+}
+/* classe per la ricerca */
+.ricerca{
+    /* debug */
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+}
+/* classe per la lista delle chat */
+.chat-list{
+    /* debug */
+    width: 100%;
+    height: 525px;
+    background-color: green;
+}
+/* classe per la chat attuale  */
+.chat-now{
+    /* debug */
+    width: 100%;
+    background-color: lightcoral;
+    height: 600px;
+}
+/* classe per la parte dove scrivi un messaggio */
+.scrivi{
+    /* debug */
+    width: 100%;
+    height: 100px;
+    background-color: springgreen;
+}
