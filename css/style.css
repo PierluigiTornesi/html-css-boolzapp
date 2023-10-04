@@ -91,7 +91,7 @@ body{
     height: 100px;
     background-color: springgreen;
 }
-
+/* classe per il container dell'header */
 .container-header{
     /* debug */
     display: flex;
@@ -99,19 +99,21 @@ body{
     width: 100%;
     padding: 1.5rem 0;
 }
-
+/* classe per il contenuto di sinistra dentro l'header di sinistra */
 .div-sinistra-header{
     /* debug */
     width: 20%;
     height: 50px;
     background-color: white ;
 }
+/* classe per il contenuto di destra dentro l'header di sinistra */
 .div-destra-header{
     /* debug */
     width: 40%;
     height: 50px;
     background-color: blueviolet; 
 }
+/* classe per la chat */
 .chat{
     /* debug */
     display: flex;
@@ -119,6 +121,7 @@ body{
     width: 100%;
     border: 3px solid orange;
 }
+/* classe per l'immagine dentro la chat */
 .img-chat{
     /* debug */
     width: 20%;
@@ -126,6 +129,7 @@ body{
     background-color: white ;
     border: 1px solid black;
 }
+/* classe per il testo del messaggio dentro la chat */
 .text-chat{
     /* debug */
     width: 60%;
