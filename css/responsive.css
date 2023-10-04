@@ -1,0 +1,23 @@
+/* DESKTOP FIRST */
+@media screen and (max-width:991px) {
+    /* metto in display none le cose che non voglio vedere quando si restringe lo schermo */
+    .div-destra-header, .notifiche, .ricerca, .text-chat{
+        display: none;
+    }
+    /* diminuisco la larghezza del blocco principale di sinistra */
+    .sinistra{
+        width: 20%;
+    }
+    /* aumento la larghezza del blocco principale di destra */
+    .destra{
+        width: 80%;
+    }
+    /* faccio si che le immagini del blocco di sinistra riempano il blocco */
+    .div-sinistra-header, .img-chat {
+        width: 100%;
+    }
+    /* aumento l'altezza della lista delle chat */
+    .chat-list{
+       height: 700px;
+    }
+}

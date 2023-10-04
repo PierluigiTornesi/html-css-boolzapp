@@ -72,6 +72,7 @@ body{
 /* classe per la lista delle chat */
 .chat-list{
     /* debug */
+    overflow-y: scroll;
     width: 100%;
     height: 525px;
     background-color: green;
@@ -89,4 +90,46 @@ body{
     width: 100%;
     height: 100px;
     background-color: springgreen;
+}
+
+.container-header{
+    /* debug */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem 0;
+}
+
+.div-sinistra-header{
+    /* debug */
+    width: 20%;
+    height: 50px;
+    background-color: white ;
+}
+.div-destra-header{
+    /* debug */
+    width: 40%;
+    height: 50px;
+    background-color: blueviolet; 
+}
+.chat{
+    /* debug */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 3px solid orange;
+}
+.img-chat{
+    /* debug */
+    width: 20%;
+    height: 90px;
+    background-color: white ;
+    border: 1px solid black;
+}
+.text-chat{
+    /* debug */
+    width: 60%;
+    height: 90px;
+    background-color: blueviolet; 
+    border: 1px solid black;
 }
