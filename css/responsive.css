@@ -1,4 +1,5 @@
 /* DESKTOP FIRST */
+/* BREAKEPOINT 991PX */
 @media screen and (max-width:991px) {
     /* metto in display none le cose che non voglio vedere quando si restringe lo schermo */
     .div-destra-header, .notifiche, .ricerca, .text-chat{
@@ -28,4 +29,16 @@
     .simboli-chat{
         width: 35%;
     }
+}
+/* BREAKEPOINT 540PX */
+@media screen and (max-width:540px){
+    /* tolgo dalla visualizzazione queste parti */
+    .sinistra, .emoji, .vocale , .simboli-chat{
+        display: none;
+    }
+    /* aumento la larghezza di questi blocchi per riempire le parti che ho tolto */
+    .container .destra,.scrivi-mex, .foto-nome{
+        width: 100%;
+    }
+    
 }
