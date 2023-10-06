@@ -6,20 +6,26 @@
         display: none;
     }
     /* diminuisco la larghezza del blocco principale di sinistra */
-    .sinistra{
-        width: 20%;
+    .container .sinistra{
+        width: 10%;
     }
     /* aumento la larghezza del blocco principale di destra */
-    .destra{
-        width: 80%;
+    .container .destra{
+        width: 90%;
     }
     /* faccio si che le immagini del blocco di sinistra riempano il blocco */
     .div-sinistra-header, .img-chat {
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     /* aumento l'altezza della lista delle chat */
     .chat-list{
-       height: 700px;
+       height: 740px;
+    }
+    .img-chat{
+        padding: 1rem 0;
     }
     /* aumento la larghezza del blocco contenente la foto e il nome nella chat attuale */
     .foto-nome{
@@ -28,6 +34,10 @@
     /* aumento la larghezza del contenitore dei simboli */
     .simboli-chat{
         width: 35%;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
     }
 }
 /* BREAKEPOINT 540PX */
