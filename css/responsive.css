@@ -19,10 +19,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-bottom: 1rem;
     }
     /* aumento l'altezza della lista delle chat */
     .chat-list{
        height: 740px;
+    }
+    .chat-box{
+        height: 710px;
     }
     .img-chat{
         padding: 1rem 0;

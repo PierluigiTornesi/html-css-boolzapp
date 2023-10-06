@@ -43,13 +43,14 @@ img{
 .sinistra header{
     /* debug */
     width: 100%;
+    background-color:#EAEAEA;
 }
 /* header di destra */
 .destra header{
-    /* debug */
-    height: 100px;
+    padding: 0 2rem;
     width: 100%;
-    background-color: yellow;
+    background-color:#EAEAEA;
+    border-left: 1px solid lightgray;
 }
 /* classe per le notifiche */
 .notifiche{
@@ -165,14 +166,27 @@ img{
 .testo{
     color: lightgray;
 }
+
+.dati-acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.text-acc .accesso{
+    color: gray;
+}
+
+
+
+
 /* classe per la chat attuale  */
 .chat-box{
     /* debug */
     width: 100%;
     position: relative;
     padding: 2rem 3rem;
-    background-color: lightcoral;
-    height: 600px;
+    height: 620px;
     overflow-y: scroll;
 }
 /* classe per il blocco del messaggio */
@@ -211,43 +225,40 @@ img{
 .scrivi{
     /* debug */
     width: 100%;
-    height: 100px;
-    background-color: springgreen;
+    min-height: 100px;
     display: flex;
-    justify-content: space-between;
-}
-/* classe del blocco con il nome e la foto  */
-.foto-nome{
-    /* debug */
-    width: 40%;
-    background-color: slateblue;
-}
-/* classe per il blocco dei simboli */
-.simboli-chat{
-    /* debug */
-    width: 30%;
-    background-color: red;
+    background-color: #F3EEEA;
+    justify-content: space-evenly;
 }
 /* classe per il container delle emoji */
 .emoji{
     /* debug */
-    background-color: pink;
-    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    font-size: 3rem;
+    color:#6B7376 ;
 }
 /* classe per il container del blocco dove puoi scrivere un messaggio */
 .scrivi-mex{
     /* debug */
+    display: flex;
+    align-items: center;
     width: 65%;
-    background-color: violet ;
+}
+.scrivi-mex input{
+    border: 0;
+    padding: 1rem 0;
+    padding-right: 80%;
 }
 /* classe per il container del vocale */
 .vocale{
     /* debug */
-    background-color: #fff;
-    width: 15%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color:#6B7376 ;
 }
-
-
-
-
-
